@@ -1,0 +1,20 @@
+/* 方法3：外部スタイルシートによる設定 */
+
+body {
+    background-color: #1A237E; /* メインカラー：ダークネイビー */
+    color: #FFFFFF;           /* テキストカラー：ピュアホワイト */
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.7;          /* 行間を少し広げて読みやすくする */
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.5em; /* emは親要素に対する倍率。ここでは文字を大きくする */
+    border-bottom: 4px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
